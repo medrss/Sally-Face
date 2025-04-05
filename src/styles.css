@@ -1,0 +1,190 @@
+@keyframes glow {
+    0% {
+        box-shadow: 0 0 250px 40px rgba(110, 3, 3, 0.5) inset;
+    }
+    50% {
+        box-shadow: 0 0 200px 60px rgba(255, 0, 0, 0.7) inset;
+    }
+    100% {
+        box-shadow: 0 0 150px 80px rgba(255, 0, 0, 0.4) inset;
+    }
+}
+
+
+body {
+    font-family: 'Minecraft Seven_2', sans-serif;
+    background-color: #1a202c;
+    color: rgb(216, 213, 213);
+    margin: 0;
+    padding: 0;
+    animation: glow 3s infinite alternate ease-in-out; 
+    overflow-x: hidden; 
+    height: 820px;
+}
+
+
+.link-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #2b6cb0;
+    color: #ffffff;
+    font-size: 18px;
+    text-decoration: none;
+    font-family: 'Minecraft Seven_2', sans-serif; /* Пиксельный стиль шрифта */
+    border-radius: 5px;
+    border: 2px solid transparent;
+    text-align: center;
+    cursor: pointer;
+    transition: transform 0.2s ease, color 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3); /* Добавлена прямоугольная тень */
+}
+.link-button:hover {
+    background: linear-gradient(180deg, #a10000, #500000);
+    color: #000;
+    text-shadow: 3px 3px 10px rgba(255, 0, 0, 1);
+    animation: shake 0.3s ease-in-out infinite, glitch-text 0.3s ease-in-out infinite;
+}
+
+.link-button:hover::after {
+    opacity: 1;
+}
+
+/* Анимация тряски */
+@keyframes shake {
+    0% {
+        transform: translate(0, 0); /* Начальное положение */
+    }
+    25% {
+        transform: translate(-4px, -4px); /* Вверх и влево */
+    }
+    50% {
+        transform: translate(4px, 4px); /* Вниз и вправо */
+    }
+    75% {
+        transform: translate(-4px, 4px); /* Вверх и вправо */
+    }
+    100% {
+        transform: translate(0, 0); /* Возвращение в исходное положение */
+    }
+}
+
+.game-description {
+    display: flex; /* Размещает картинку и текст в ряд */
+    gap: 20px; /* Отступ между изображением и текстом */
+    justify-content: center; /* Выравнивание контента по центру */
+    align-items: center; /* Выравнивание контента по вертикали */
+}
+
+.game-text {
+    max-width: 750px; /* Ограничивает ширину текста */
+    font-family: 'Minecraft Seven_2', sans-serif;
+    font-size: 18px;
+    margin-top: -20px;
+}
+
+@keyframes glitch {
+    0% { transform: translate(0, 0); }
+    20% { transform: translate(-2px, 2px); text-shadow: -2px 2px red; }
+    40% { transform: translate(2px, -2px); text-shadow: 2px -2px blue; }
+    60% { transform: translate(-2px, -2px); text-shadow: -2px -2px green; }
+    80% { transform: translate(2px, 2px); text-shadow: 2px 2px yellow; }
+    100% { transform: translate(0, 0); }
+}
+
+h1 {
+    font-size: 38px;
+    text-align: center;
+    margin-top: -12px;
+    margin-bottom: 35px;
+    color: #950e0e; /* Кроваво-красный */
+    text-shadow: 0 0 10px rgba(171, 17, 17, 0.8);
+    animation: glitch 0.3s infinite alternate;
+    position: relative;
+}
+
+.screenshot-discript {
+    font-size: 25px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center; /* Центрирует кнопку */
+    margin-left: -50px;
+    margin-top: -20px;
+}
+
+.screenshotSally {
+    width: 470px;
+    height: 260px;
+    border-radius: 3px;
+    object-fit: cover;
+    box-shadow: 0 2px 20px rgba(255, 0, 0, 0.534);
+    margin-left: 20px;
+  }
+  
+  .screenshot {
+    width: 370px;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 0px 10px #3b82f6;
+  }
+  
+  figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 0; /* Убирает лишние отступы */
+}
+
+figcaption {
+    margin-top: 8px;
+    font-size: 18px;
+    color: #ccc;
+    font-family: 'Minecraft Seven_2', sans-serif;
+    text-align: center;
+}
+
+  .screenshot-container {
+    display: flex;
+    gap: 50px !important; 
+    margin-left: 150px;
+    margin-top: 20px;
+  }
+  
+  .nav-button {
+    display: inline-block;
+    padding: 12px 24px;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(255, 0, 0, 0.6); /* Красноватая тень */
+    transition: all 0.3s ease-in-out;
+    position: relative;
+    overflow: hidden;
+}
+
+.nav-button:hover {
+    animation: shake 0.3s infinite alternate ease-in-out;
+    box-shadow: 0 0 20px rgba(255, 0, 0, 0.9);
+}
+
+.nav-button {
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+@keyframes shake {
+    0% { transform: translate(0, 0); }
+    25% { transform: translate(-2px, -2px); }
+    50% { transform: translate(2px, 2px); }
+    75% { transform: translate(-2px, 2px); }
+    100% { transform: translate(2px, -2px); }
+}
+
