@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Sally-Face/static/css/main.b5d04d67.css",
-    "main.js": "/Sally-Face/static/js/main.3cb7c59a.js",
+    "main.js": "/Sally-Face/static/js/main.8705570a.js",
     "static/js/453.0a36081d.chunk.js": "/Sally-Face/static/js/453.0a36081d.chunk.js",
     "static/media/sally2.jpg": "/Sally-Face/static/media/sally2.9d0886e982cc2b310226.jpg",
     "static/media/sally3.jpg": "/Sally-Face/static/media/sally3.752c385b9d1a63d91d87.jpg",
@@ -17,11 +17,11 @@
     "static/media/diane.jpg": "/Sally-Face/static/media/diane.dd53e8ec7c5db8e37741.jpg",
     "index.html": "/Sally-Face/index.html",
     "main.b5d04d67.css.map": "/Sally-Face/static/css/main.b5d04d67.css.map",
-    "main.3cb7c59a.js.map": "/Sally-Face/static/js/main.3cb7c59a.js.map",
+    "main.8705570a.js.map": "/Sally-Face/static/js/main.8705570a.js.map",
     "453.0a36081d.chunk.js.map": "/Sally-Face/static/js/453.0a36081d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b5d04d67.css",
-    "static/js/main.3cb7c59a.js"
+    "static/js/main.8705570a.js"
   ]
 }
