@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/Sally-Face/static/css/main.b5d04d67.css",
+    "main.js": "/Sally-Face/static/js/main.3cb7c59a.js",
+    "static/js/453.0a36081d.chunk.js": "/Sally-Face/static/js/453.0a36081d.chunk.js",
+    "static/media/sally2.jpg": "/Sally-Face/static/media/sally2.9d0886e982cc2b310226.jpg",
+    "static/media/sally3.jpg": "/Sally-Face/static/media/sally3.752c385b9d1a63d91d87.jpg",
+    "static/media/sally4.jpg": "/Sally-Face/static/media/sally4.59a6375fbf4e43e24d55.jpg",
+    "static/media/Minecraft Seven_2.ttf": "/Sally-Face/static/media/Minecraft Seven_2.6e207abe91442317b52e.ttf",
+    "static/media/sally1.jpg": "/Sally-Face/static/media/sally1.93baf2a3a20f9b2654b1.jpg",
+    "static/media/gizmo.jpg": "/Sally-Face/static/media/gizmo.f8ede29b052628e3d762.jpg",
+    "static/media/sally.jpg": "/Sally-Face/static/media/sally.04824c91bdacc7a0e66a.jpg",
+    "static/media/lisa.jpg": "/Sally-Face/static/media/lisa.6f1afaf0edf02d2fc337.jpg",
+    "static/media/henry.jpg": "/Sally-Face/static/media/henry.90d5f2cf6ff4088e0145.jpg",
+    "static/media/larry.jpg": "/Sally-Face/static/media/larry.2d529bc0c3b3682feaec.jpg",
+    "static/media/jim.jpg": "/Sally-Face/static/media/jim.7ccd0bd89601803411c5.jpg",
+    "static/media/diane.jpg": "/Sally-Face/static/media/diane.dd53e8ec7c5db8e37741.jpg",
+    "index.html": "/Sally-Face/index.html",
+    "main.b5d04d67.css.map": "/Sally-Face/static/css/main.b5d04d67.css.map",
+    "main.3cb7c59a.js.map": "/Sally-Face/static/js/main.3cb7c59a.js.map",
+    "453.0a36081d.chunk.js.map": "/Sally-Face/static/js/453.0a36081d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b5d04d67.css",
+    "static/js/main.3cb7c59a.js"
+  ]
+}
